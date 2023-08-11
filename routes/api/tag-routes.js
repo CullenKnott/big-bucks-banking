@@ -29,6 +29,7 @@ router.get("/:id", async (req, res) => {
     const tagData = await Tag.findByPk(req.params.id, {
       include: [
         {
+          // because the tag and product are bridged by a productTags file, you must you "through" to connect the data in the end point
           model: Product,
           through: ProductTag,
         },
