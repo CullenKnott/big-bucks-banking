@@ -35,7 +35,7 @@ https://github.com/CullenKnott/big-bucks-banking
 
 To test this app, open up the file in VS Code. Open the terminal, change directory into the root folder `big-bucks-banking`, and run `npm start`. This will initiate the server and allow you to host the server on your system. In order to see the data throught the server, you'll have to put the url into an app like insomnia. The walkthrough link below demonstrates how to test this application.
 
--- insert video link here --
+https://youtu.be/GCjqzUNoKl8
 
 ## License
 
